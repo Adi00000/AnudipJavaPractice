@@ -9,7 +9,7 @@ public class CharVar {
 		marks = '8';
 		grade = 'B';
 		
-		System.out.println("Marks:" + +marks);
+		System.out.println("Marks:" +marks);
 		System.out.println("Grade: "+grade);
 
 	}
