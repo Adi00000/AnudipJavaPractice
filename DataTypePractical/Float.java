@@ -2,12 +2,11 @@ public class Float {
 	
 	public static void main(String args[]) {
 	
-	float myFloat1,myFloat2,result;
-	myFloat1=1000.666f;
-	myFloat2=110.77f;
-	result=myFloat1-myFloat2;
-	System.out.println("Number1: "+myFloat1);
-	System.out.println("Number2: "+myFloat2);
+	Float f1 =1045.666f;
+	Float f2=144.77f;
+	Float result = f1 - f2;
+	System.out.println("Number1: "+f1);
+	System.out.println("Number2: "+f2);
 	System.out.println("Number1-Number2: "+result);
 
 
