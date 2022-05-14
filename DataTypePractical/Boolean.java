@@ -4,7 +4,7 @@ public class Boolean {
 	{
 	boolean myBool = true;
 	if(myBool == true)
-	System.out.println("I am using a Boolean data type:"+myBool);
+	System.out.println("I am using a Boolean data type: "+myBool);
   }
 
 
