@@ -1,4 +1,4 @@
-public class Conversion{
+public class Widening{
 public static void main(String[] args)                 
  {
 int i = 200;
