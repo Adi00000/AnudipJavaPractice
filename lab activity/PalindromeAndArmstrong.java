@@ -11,10 +11,10 @@ public class PalindromeAndArmstrong {
     }
       
        if(str.equals(rev)){
-           System.out.println(str+" is a palindrome number");
+           System.out.println(str+" is a palindrome");
        }
        else{
-           System.out.println(str+" is not a palindrome number");
+           System.out.println(str+" is not a palindrome");
        }
     }
   
@@ -42,9 +42,9 @@ public class PalindromeAndArmstrong {
         Scanner input = new Scanner(System.in);
         //Taking input to check palindrome and armstrong
         System.out.println("Enter string to check palindrome");
-        String str = input.nextLine();
+        String str = input.nextLine();                                 // take string input to check palindrome
         System.out.println("Enter number to check Armstrong");
-        int n = input.nextInt();
+        int n = input.nextInt();                                       // take integer input to check Armstrong
         Palindrome(str);
         Armstrong(n);
 
